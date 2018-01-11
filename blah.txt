@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+double number_one;
+double number_two;
+cout<<"Enter two numbers:";
+cin>>number_one>>number_two;
+double sum=number_one+number_two;
+double product=number_one*number_two;
+double difference_one=number_one-number_two;
+double difference_two=number_two-number_one;
+const double AVG=.5;
+double average=sum*AVG;
+cout<<"The sum of the two numbers is:"<<sum<<endl;
+cout<<"The difference of the first number from the second is:"<<difference_one<<endl;
+cout<<"The difference of the second number from the first is:"<<difference_two<<endl;
+cout<<"The product of the numbers is:"<<product<<endl;
+cout<<"The average of the two numbers is:"<<average<<endl;
+return 0;
+}
